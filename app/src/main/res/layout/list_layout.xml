@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_margin="20sp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/nameLayout"
+        android:layout_marginLeft="10sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/addressLayout"
+        android:layout_marginLeft="20sp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
